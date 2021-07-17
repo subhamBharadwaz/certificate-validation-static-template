@@ -1,0 +1,60 @@
+@use '../abstracts/index' as *;
+
+.certificates__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2em;
+
+  @include mobile(48rem) {
+    max-width: 33.33%;
+  }
+
+  &__info {
+    transition: color 0.2s ease;
+  }
+  &__img {
+    margin-right: 1em;
+    max-width: 30%;
+  }
+}
+.card-endorsements {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid $clr-gray;
+  padding: 2em;
+  .card__info {
+    cursor: pointer;
+  }
+  .title {
+    margin-bottom: 0.5em;
+  }
+}
+
+.card:nth-child(1),
+.card:nth-child(2),
+.card:nth-child(3) {
+  border: none;
+  border-top: 1px solid $clr-gray;
+}
+
+@include mobile(48rem) {
+  .card:nth-child(1) {
+    border: none;
+    border-top: 1px solid $clr-gray;
+  }
+  .card:nth-child(2),
+  .card:nth-child(3) {
+    border: none;
+    border-left: 1px solid $clr-gray;
+    border-top: 1px solid $clr-gray;
+  }
+}

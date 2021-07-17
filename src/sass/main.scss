@@ -1,0 +1,14 @@
+// @import "abstracts/fonts";
+@use 'abstracts/colors';
+@use 'abstracts/typography.scss';
+@use 'layout/profile';
+@use 'layout/nav';
+@use 'components/container';
+@use 'components/button';
+@use 'components/bar';
+@use 'components/job-bars';
+@use 'components/card';
+@use 'components/verification';
+@use 'pages/certificate';
+
+@forward './reset';

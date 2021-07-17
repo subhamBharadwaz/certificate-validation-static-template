@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+// Typefaces
+$ff-primary: 'Noto Serif';
+$ff-secondary: 'Roboto';
+
+// Font weights
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+
+// Font sizes
+$fs-800: 2rem;
+$fs-700: 1.5rem;
+$fs-600: 1.3rem;
+$fs-500: 1.2rem;
+$fs-400: 0.875rem;
+$fs-300: 0.75rem;
+
+body {
+  font-family: $ff-secondary;
+  font-weight: $fw-regular;
+  line-height: 1.6;
+}
+h1 {
+  font-family: $ff-primary;
+  font-size: $fs-800;
+  font-weight: $fw-bold;
+}
+h2 {
+  font-size: $fs-600;
+  font-weight: $fw-regular;
+}
+h3 {
+  font-size: $fs-500;
+  font-weight: $fw-bold;
+}
+
+p {
+  font-size: $fs-400;
+}
+
+// Extra
+.currently-working p {
+  font-size: $fs-500;
+}
+.contact p i,
+.contact-text,
+.bar a {
+  font-size: $fs-500;
+}
+.insights {
+  h2 {
+    font-weight: $fw-bold;
+    font-size: $fs-700;
+    text-align: center;
+  }
+}

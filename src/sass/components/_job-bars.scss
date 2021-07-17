@@ -1,0 +1,30 @@
+@use '../abstracts/index' as *;
+
+.bars {
+  padding: 1em 1.5em;
+  background-color: $clr-blue;
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: $clr-light-blue;
+  }
+
+  &:nth-child(1) {
+    width: 80%;
+  }
+  &:nth-child(2) {
+    width: 50%;
+  }
+  &:nth-child(3) {
+    width: 59%;
+  }
+  &:nth-child(4) {
+    width: 76%;
+  }
+  &:nth-child(5) {
+    width: 90%;
+  }
+}

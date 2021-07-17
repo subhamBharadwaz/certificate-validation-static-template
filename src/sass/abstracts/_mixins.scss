@@ -1,0 +1,7 @@
+// Breakpoint
+
+@mixin mobile($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}

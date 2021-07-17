@@ -1,0 +1,19 @@
+$clr-black: #333;
+$clr-gray: rgba(211, 211, 211, 0.7);
+$clr-dark-gray: rgba(201, 201, 201, 0.7);
+$clr-white: #f8f8f8;
+$clr-tertiary: #008641;
+$clr-light-blue: #ccecea;
+$clr-blue: #91e5e0;
+
+body {
+  background: $clr-white;
+  color: $clr-black;
+}
+a {
+  color: inherit;
+}
+
+.text-unique {
+  color: $clr-tertiary;
+}

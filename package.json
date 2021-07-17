@@ -1,0 +1,15 @@
+{
+  "name": "certificate-validation-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Subham Bharadwaz",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/certificate.html",
+    "build": "parcel build src/index.html &&  parcel build src/certificate.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.2"
+  }
+}
